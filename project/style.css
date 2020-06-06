@@ -1,0 +1,146 @@
+body{
+	background-color: #800000;
+}
+
+.pad{
+	padding-top: 30px;
+}
+
+.size {
+  width: 80%;
+  height: 400px;
+  padding-left: 280px;
+}
+
+.rightside{
+	position: absolute;
+	right: 0px;
+
+}
+#book1-tile ,#book2-tile,#book3-tile,#book4-tile,#book5-tile,#book6-tile,#book7-tile,#book8-tile,#book9-tile,#book10-tile {
+  margin-top: 20px;
+  height: 233px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#book1-tile:hover,#book2-tile:hover,#book3-tile:hover,#book4-tile:hover,#book5-tile:hover,#book6-tile:hover,#book7-tile:hover,#book8-tile:hover,#book9-tile:hover,#book10-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#book1-tile {
+  background: url('images/CARS/creta.png') no-repeat;
+}
+
+#book2-tile {
+  background: url('images/CARS/Audi-A6.png') no-repeat;
+}
+
+#book3-tile {
+  background: url('images/CARS/BMW7.png') no-repeat;
+}
+
+#book4-tile {
+  background: url('images/CARS/Endeavour.png') no-repeat;
+}
+
+#book5-tile {
+  background: url('images/CARS/Fortuner.png') no-repeat;
+}
+
+#book6-tile {
+  background: url('images/CARS/hondacity.png') no-repeat;
+}
+
+#book7-tile {
+  background: url('images/CARS/jeepcompass.png') no-repeat;
+}
+
+#book8-tile {
+  background: url('images/CARS/Vento.png') no-repeat;
+}
+
+#book9-tile {
+  background: url('images/CARS/Mercedes-Benz-G-Class.png') no-repeat;
+}
+
+#book10-tile {
+  background: url('images/CARS/polo.png') no-repeat;
+}
+#book1-tile span, #book2-tile span, #book3-tile span, #book4-tile span, #book5-tile span, #book6-tile span, #book7-tile span, #book8-tile span, #book9-tile span, #book10-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address , #contactus ,#aboutus {
+  line-height: 2;
+}
+#hours > span, #address > span ,#contactus > span ,#aboutus > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #fff;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+
+.Bookheading{
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+}
+
+.mid-content{
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+}
+
+#fuel-tile{
+margin-top: 20px;
+  height: 233px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#adv1-tiles, #adv2-tiles,#adv3-tiles{
+  margin-top: 20px;
+  height: 130px;
+  width: 30%;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  position: relative;
+  border: 2px solid #008080;
+  overflow: hidden;
+
+}
+
+hr{
+	width: 80%;
+	background-color:  #008080;
+}
